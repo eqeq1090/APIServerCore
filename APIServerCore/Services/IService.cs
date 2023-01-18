@@ -1,6 +1,6 @@
 ﻿namespace APIServerCore.Services
 {
-    public class TestService: IService
+    public interface IService
     {
     }
 }
