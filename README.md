@@ -1,6 +1,6 @@
 # APIServerCore
 
-API Server Core With
+Tech Stack
 - ASP.NET Core 6.0
 - MySQL
 - Redis
