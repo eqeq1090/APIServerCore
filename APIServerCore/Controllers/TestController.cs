@@ -13,7 +13,7 @@ namespace APIServerCore.Controllers
         {
             _service = service;
         }
-        [HttpGet]
+        [HttpGet(Name = "getall")]
         public async Task<List<Test>> GetAll()
         {
             return _service.GetTests();
